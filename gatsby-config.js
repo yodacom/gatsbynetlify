@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Blog",
-    desc: "A new blog"
+    title: "Aktheos Blog",
+    desc: "Living deeper than the circumference of your life"
   },
-  pathPrefix: "/gatsby-blog",
 
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -29,8 +28,11 @@ module.exports = {
       }
     },
     "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp"
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-netlify-cms"
   ]
 };
 
 // pathPrefix: "/gatsbyblog",
+
+// pathPrefix: "/gatsby-blog",
